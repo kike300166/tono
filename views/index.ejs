@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHKDKC0T4K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QHKDKC0T4K');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Flashfotografy">
+  <meta property="og:url" content="https://www.Flashfotografy.com">
+  <meta property="og:image" content="https://static.vecteezy.com/system/resources/previews/020/520/941/large_2x/fotografia-icon-vector.jpg">
+  <meta property="og:description" content="Tienda Online de venta de maquillajes para tu gusto y uso personal">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashfotografy</title>
+  <style>
+    body {
+      background-color: #0a0cb3;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 100%;
+      width: 520px;
+      height: 380px;
+      border-radius: 10px;
+      box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.18);
+      background-color: rgb(92, 142, 175);
+      overflow: hidden visible;
+      border: 2px solid rgb(41, 27, 165);
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .header {
+      border-bottom: 1px solid #5e8094;
+      background-color: rgb(14, 119, 138);
+      padding: 20px 40px;
+    }
+
+    .header h2 {
+      margin: 0;
+      color: rgb(204, 107, 204);
+    }
+
+    h3 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: whitesmoke;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: orangered;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    a {
+      background-color: rgb(250, 213, 200);
+      padding: 10px 20px;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(136, 35, 97);
+    }
+
+    h4 {
+      border: 2px solid rgb(197, 86, 160);
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    footer {
+      width: 520px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    address {
+      font-family: 'Times New Roman';
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h2>Pagina Principal</h2>
+    </div>
+
+    <h3><span style="background-color: rgb(103, 146, 201);">Pagina para Clientes</span></h3>
+    <form action="/" method="get">
+      </h4><a class="btn btn-secondary" href="/clientes">Clientes</a>
+
+      <h3><span style="background-color: rgb(147, 152, 218);">Pagina para Administradores</span></h3>
+      <form action="/" method="get">
+        </h4><a class="btn btn-secondary" href="/admin">Admin</a>
+      </form>
+      <%- include('footer') -%>
+  </div>
+</body>
+
+</html>
